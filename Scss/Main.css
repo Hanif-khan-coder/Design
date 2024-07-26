@@ -1578,6 +1578,9 @@ button:focus {
   .ft-display {
     flex-direction: column;
   }
+  .section-3 .sec-3-2 .img-es {
+    row-gap: 4rem;
+  }
   section > .background-image > .content-1, section > .logo.background-image > img:hover, section > .background-image > .content-1-image {
     width: 100%;
     display: flex;
@@ -1609,6 +1612,7 @@ button:focus {
     justify-content: center;
   }
   section .sec-3 .sec3-start .sec3-2 .button-3 .but button {
+    border: none;
     font-size: 0.5rem;
   }
   .section-2 .sec2-p1 {
@@ -1756,6 +1760,7 @@ button:focus {
   }
   .section-4 .section-4-p3 .section-4-p3-1 .tick1-out .hp-1 p {
     font-size: 1rem;
+    overflow: hidden;
     line-height: 1.1rem;
   }
   .section-4 .section-4-p3 .section-4-p3-1 .tick2-out {
@@ -1770,6 +1775,7 @@ button:focus {
   }
   .section-4 .section-4-p3 .section-4-p3-1 .tick2-out .hp-2 .p-2 {
     font-size: 1rem;
+    overflow: hidden;
     line-height: 1.1rem;
   }
   .section-4 .section-4-p3 .section-4-p3-2 {
@@ -2062,6 +2068,7 @@ button:focus {
   }
   section .background-image .content-1 .sec-input > span > input, section .background-image .logo > img:hover .sec-input > span > input, section .background-image .content-1-image .sec-input > span > input {
     flex-grow: 1;
+    text-align: center;
   }
   section .background-image .content-1 .sec-input > button, section .background-image .logo > img:hover .sec-input > button, section .background-image .content-1-image .sec-input > button {
     flex-grow: 1;
