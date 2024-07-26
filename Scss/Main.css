@@ -1880,7 +1880,7 @@ button:focus {
     width: 100%;
     padding: 0.5rem 0.7rem;
     text-align: center;
-    font-weight: 100;
+    font-weight: 900;
   }
   .sec-5 .sec-5-p1 .sec5-backcolor .sec5-p1-first h1 {
     font-size: 1.5rem;
@@ -2007,18 +2007,22 @@ button:focus {
     justify-content: center;
   }
   .sec8-start .sec8-div-size .sec8-p2 .sec8-p2-start .input-name input {
+    color: black;
     width: 100%;
     font-size: 0.8rem;
   }
   .sec8-start .sec8-div-size .sec8-p2 .sec8-p2-start .input-email input {
+    color: black;
     width: 100%;
     font-size: 0.8rem;
   }
   .sec8-start .sec8-div-size .sec8-p2 .sec8-p2-start .input-subject input {
+    color: black;
     width: 100%;
     font-size: 0.8rem;
   }
   .sec8-start .sec8-div-size .sec8-p2 .sec8-p2-start .input-msg textarea {
+    color: black;
     width: 100%;
     font-size: 0.8rem;
   }
