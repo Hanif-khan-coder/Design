@@ -1,0 +1,93 @@
+@mixin xl-large{
+
+    @media (min-width:2560px) {
+
+        @content;
+        
+    }
+
+
+}
+
+@mixin mini-pad{
+
+    @media (min-width:501px) and (max-width:600px) {
+
+        @content;
+        
+    }
+
+
+}
+
+@mixin ipad-1{
+
+    @media (min-width:601px) and (max-width:767px) {
+
+        @content;
+        
+    }
+
+
+}
+
+@mixin ipad-pro{
+
+    @media (min-width:768px) and (max-width:820px) {
+
+        @content;
+        
+    }
+
+
+}
+
+@mixin mini-laptop{
+
+    @media (min-width:1024px) and (max-width:1200px) {
+
+        @content;
+        
+    }
+
+
+}
+
+
+
+
+@mixin laptop-view{
+
+    @media (min-width:1201px) and (max-width:1440px) {
+
+        @content;
+        
+    }
+
+
+}
+
+
+
+
+@mixin large-laptop-view{
+
+    @media (min-width:1500px) and (max-width:2000px) {
+
+        @content;
+        
+    }
+
+
+}
+
+@mixin xl-laptop-view{
+
+    @media (min-width:2001px) and (max-width:2400px) {
+
+        @content;
+        
+    }
+
+
+}

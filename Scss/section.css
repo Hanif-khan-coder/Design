@@ -1,0 +1,22 @@
+section .background-image {
+  background-image: url("img bg.png");
+  background-size: 92vw 83vh;
+  width: 92vw;
+  height: 83vh;
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+section .background-image .content-1 {
+  margin-top: 8vh;
+  width: 60%;
+  height: 50%;
+  overflow-y: hidden;
+}
+section .background-image .content-1-image {
+  margin-top: 8vh;
+  width: 30%;
+  height: 90%;
+  overflow-y: hidden;
+}/*# sourceMappingURL=section.css.map */

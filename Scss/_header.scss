@@ -1,0 +1,79 @@
+
+@mixin display-item{
+
+  display:flex;
+  align-items:center;
+}
+@mixin display-justify{
+
+  display:flex;
+justify-content:center;
+}
+
+@function width($width){
+
+  @return 100-$width + vh;
+}
+
+
+.nav-head {
+    width: 100vw;
+   @include display-justify;
+    margin-top: .8rem;
+  
+    background-color: white;
+    position: sticky;
+    top: 0vh;
+  
+  
+    nav {
+      text-align: center;
+      width: 80vw;
+      // height: 11vh;
+  
+      display: flex;
+      justify-content: space-between;
+  
+      .logo {
+        width: 20%;
+       @include display-justify();
+      }
+  
+      .list-items {
+        width: 70%;
+  
+  
+        .nav {
+
+          height: 11vh;
+          width: 100%;
+          list-style: none;
+         @include display-item();
+          justify-content: space-evenly;
+          
+  
+  
+          li a {
+  
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight:900;
+          }
+  
+  
+  
+        }
+  
+  
+  
+      }
+  
+  .menu{
+
+   @include display-item;
+  }
+
+
+    }
+  }
+  

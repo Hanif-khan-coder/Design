@@ -1,0 +1,35 @@
+.nav-head {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  background-color: white;
+  position: sticky;
+  top: 0vh;
+}
+.nav-head nav {
+  text-align: center;
+  width: 80vw;
+  height: 11vh;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-head nav .logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.nav-head nav .list-items {
+  width: 60%;
+}
+.nav-head nav .list-items .nav {
+  height: 11vh;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-head nav .list-items .nav li a {
+  text-decoration: none;
+}/*# sourceMappingURL=header.css.map */

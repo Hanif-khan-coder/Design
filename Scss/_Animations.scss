@@ -1,0 +1,187 @@
+@mixin main-animation {
+
+    animation: ani;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-direction: alternate;
+
+}
+
+
+
+
+.content-1 {
+
+    @include main-animation;
+
+
+
+}
+
+.background-image,
+.logo,
+.nav {
+    @include main-animation;
+}
+
+
+
+@keyframes ani {
+
+    from {
+
+        transform: translateY(-40vh);
+        color: $backcolor;
+
+    }
+
+    to {
+        transform: translateY(0vh);
+
+    }
+}
+
+
+.content-1-image {
+
+    animation: ani-img;
+    animation-duration: 2.5s;
+    @extend .content-1;
+
+}
+
+
+@keyframes ani-img {
+
+    from {
+
+        transform: translateX(50vh);
+        color: $backcolor;
+
+    }
+
+    to {
+        transform: translateX(0vh);
+
+    }
+}
+
+
+
+a {
+    transition: all 0.5s ease-in-out 0s;
+
+}
+
+
+
+
+
+a:hover {
+
+    border-radius: 5px;
+
+    background-color: $backcolor ;
+
+    color: aliceblue;
+    // font-size: 16px;   
+    //  box-sizing: border-box;
+    // padding: 3px;
+
+}
+
+
+
+.logo>img {
+
+    transition: all 1s ease-in 0s;
+
+
+}
+
+.logo>img:hover {
+
+    animation: ani-logo;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    @extend .content-1;
+
+}
+
+@keyframes ani-logo {
+    from {
+        transform: translateX(-50vh);
+
+    }
+
+    to {
+        transform: translateX(0vh);
+
+    }
+
+
+}
+
+
+
+@mixin transform {
+
+    transform: scale(1.06);
+
+}
+
+
+
+
+
+.img1 {
+
+    transition: all 0.5s ease-in 0s;
+
+}
+
+.img1:hover {
+
+    @include transform();
+    overflow-y: hidden;
+
+}
+
+
+.img2 {
+
+    @extend .img1
+}
+
+.img2:hover {
+
+    @include transform();
+
+
+}
+
+.img3 {
+
+    @extend .img1
+}
+
+.img3:hover {
+
+    @include transform();
+
+}
+
+
+.img4 {
+
+    @extend .img1
+}
+
+.img4:hover {
+
+    @include transform();
+
+
+}

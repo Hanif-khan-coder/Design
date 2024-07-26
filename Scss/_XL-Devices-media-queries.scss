@@ -1,0 +1,101 @@
+
+@include xl-large{
+
+    html{
+
+        font-size: $xl-screen;
+        
+        }
+      
+
+}
+
+@include mini-pad{
+
+    html{
+
+        font-size: $mini-pad;
+        
+        }
+  
+    
+
+}
+
+@include ipad-1{
+
+    html{
+
+        font-size:$ipad-1;
+        
+        }
+  
+    
+
+}
+
+
+@include ipad-pro{
+
+    html{
+
+        font-size:$ipad-pro;
+        
+        }
+  
+    
+
+}
+
+@include mini-laptop{
+
+    html{
+
+        font-size:$mini-laptop;
+        
+        }
+  
+    
+
+}
+
+@include laptop-view{
+
+    html{
+
+        font-size:$laptop-view;
+        
+        }
+  
+    
+
+}
+
+
+
+@include large-laptop-view{
+
+    html{
+
+        font-size:$large-laptop-view;
+        
+        }
+  
+    
+
+}
+
+
+
+
+@include xl-laptop-view{
+
+    html{
+
+        font-size:$xl-laptop-view;
+        
+        }
+  
+    
+
+}
