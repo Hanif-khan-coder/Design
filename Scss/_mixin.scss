@@ -22,7 +22,7 @@
 
 @mixin ipad-1{
 
-    @media (min-width:601px) and (max-width:767px) {
+    @media (min-width:601px) and (max-width:768px) {
 
         @content;
         
@@ -91,3 +91,11 @@
 
 
 }
+
+@mixin display-property {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }

@@ -19,7 +19,9 @@ justify-content:center;
 .nav-head {
     width: 100vw;
    @include display-justify;
-    margin-top: .8rem;
+    // margin-top: .8rem;
+    padding: .9rem 0rem .5rem 0rem;
+    z-index: 1000;
   
     background-color: white;
     position: sticky;
@@ -28,7 +30,7 @@ justify-content:center;
   
     nav {
       text-align: center;
-      width: 80vw;
+      width: 93vw;
       // height: 11vh;
   
       display: flex;

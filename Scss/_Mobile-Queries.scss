@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:500px) {
 
   .list-items {
 
@@ -8,25 +8,24 @@
     display: none;
 
   }
+}
 
+  @media screen and (max-width:600px) {
 
+    .nav-head nav .logo {
+      width:auto;
+    }
+  
 
-
-.nav-head>nav>.logo{
-
-width:55% ;
 
 }
 
 
-}
+
+@media (min-width:501px) and (max-width:10000px) {
 
 
-
-@media (min-width:768px) and (max-width:10000px) {
-
-
-  .menu a {
+  .nav-head nav .menu {
 
 
     display: none;
@@ -47,6 +46,8 @@ width:55% ;
   
     flex-direction: column;
 }
+
+
 
 .section-3 .sec-3-2 .img-es {
   row-gap: 4rem;

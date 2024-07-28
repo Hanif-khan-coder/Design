@@ -8,13 +8,14 @@
     .sec8-div-size{
     display: flex;
     width: 80%;
-    column-gap: 5rem;
+    // column-gap: 5rem;
+    justify-content: center;
     // height: 95%;
 margin-top: 5rem;
 
     
     .sec8-p1{
-    
+    margin-right: 3rem;
     width: 50%;
     margin-top: 2rem;
     .sec8-p1-1{

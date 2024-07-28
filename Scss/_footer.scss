@@ -202,17 +202,38 @@ border: 1px solid white;
 // }
 
 
-button:hover {
-    color: red;
-    font-weight: 900;
-}
+// button:hover {
+//     color: red;
+//     font-weight: 900;
+// }
 
 button:active {
     background-color: black;
+    background-color: blue;
+    color: aliceblue;
+}
+
+section .sec-3 .sec3-start .sec3-2 .button-3 .but button:active{
+
+
+    color: aliceblue;
+
+       background-color: blue;
+   
+   }
+
+
+
+section .sec-3 .sec3-start .sec3-2 .button-3 .but button:focus{
+
+
+ color: aliceblue;
+    font-weight: 700;
+    background-color: blue;
 
 }
 
-button:focus {
+.but-ft:focus {
     color: aliceblue;
     font-weight: 900;
     background-color: blue;

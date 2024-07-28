@@ -174,13 +174,13 @@ border-radius: 1.5rem;
   .tick1-out{
   
     display: flex;
+    align-items: center;
     // -moz-column-gap: 16px;
     column-gap: 1rem;
     margin-top: 2rem;
   
   .tick1{
-  display: flex;
-  align-items: center;
+ 
     width: 16%;
   
     img{
