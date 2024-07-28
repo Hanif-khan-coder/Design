@@ -211,6 +211,8 @@ button:active {
     background-color: black;
     background-color: blue;
     color: aliceblue;
+    border: .1rem solid white;
+    
 }
 
 section .sec-3 .sec3-start .sec3-2 .button-3 .but button:active{
@@ -219,10 +221,11 @@ section .sec-3 .sec3-start .sec3-2 .button-3 .but button:active{
     color: aliceblue;
 
        background-color: blue;
+       border: .1rem solid rgb(5, 4, 5);
    
    }
 
-
+ 
 
 section .sec-3 .sec3-start .sec3-2 .button-3 .but button:focus{
 
@@ -230,13 +233,15 @@ section .sec-3 .sec3-start .sec3-2 .button-3 .but button:focus{
  color: aliceblue;
     font-weight: 700;
     background-color: blue;
-
+    border: .1rem solid rgb(4, 4, 4);
+    // box-shadow: 0px 0px .2px .3px black;
 }
 
 .but-ft:focus {
     color: aliceblue;
     font-weight: 900;
     background-color: blue;
+    border: .1rem solid white;
 }
 
 
